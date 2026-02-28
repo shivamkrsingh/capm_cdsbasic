@@ -1,0 +1,8 @@
+VIEW localized_RealtimeService_Categories AS SELECT
+  Category_0.ID,
+  Category_0.createdAt,
+  Category_0.createdBy,
+  Category_0.modifiedAt,
+  Category_0.modifiedBy,
+  Category_0.name
+FROM localized_extreme_Category AS Category_0

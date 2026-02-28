@@ -1,0 +1,13 @@
+VIEW RealtimeService_Products AS SELECT
+  Product_0.ID,
+  Product_0.createdAt,
+  Product_0.createdBy,
+  Product_0.modifiedAt,
+  Product_0.modifiedBy,
+  Product_0.name,
+  Product_0.description,
+  Product_0.price,
+  Product_0.currency,
+  Product_0.stock,
+  Product_0.category_ID
+FROM extreme_Product AS Product_0

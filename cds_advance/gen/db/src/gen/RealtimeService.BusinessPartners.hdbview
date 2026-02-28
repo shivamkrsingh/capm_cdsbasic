@@ -1,0 +1,10 @@
+VIEW RealtimeService_BusinessPartners AS SELECT
+  BusinessPartner_0.ID,
+  BusinessPartner_0.createdAt,
+  BusinessPartner_0.createdBy,
+  BusinessPartner_0.modifiedAt,
+  BusinessPartner_0.modifiedBy,
+  BusinessPartner_0.name,
+  BusinessPartner_0.phone,
+  BusinessPartner_0.mobile
+FROM extreme_BusinessPartner AS BusinessPartner_0

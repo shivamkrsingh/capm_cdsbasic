@@ -1,0 +1,13 @@
+VIEW localized_extreme_Product AS SELECT
+  L_0.ID,
+  L_0.createdAt,
+  L_0.createdBy,
+  L_0.modifiedAt,
+  L_0.modifiedBy,
+  coalesce(localized_1.name, L_0.name) AS name,
+  coalesce(localized_1.description, L_0.description) AS description,
+  L_0.price,
+  L_0.currency,
+  L_0.stock,
+  L_0.category_ID
+FROM (extreme_Product AS L_0 LEFT JOIN extreme_Product_texts AS localized_1 ON localized_1.ID = L_0.ID AND localized_1.locale = SESSION_CONTEXT('LOCALE'))

@@ -1,0 +1,14 @@
+COLUMN TABLE extreme_Product (
+  ID NVARCHAR(36) NOT NULL,
+  createdAt TIMESTAMP,
+  createdBy NVARCHAR(255),
+  modifiedAt TIMESTAMP,
+  modifiedBy NVARCHAR(255),
+  name NVARCHAR(200),
+  description NVARCHAR(500),
+  price DECIMAL(15, 2),
+  currency NVARCHAR(3),
+  stock INTEGER,
+  category_ID NVARCHAR(36),
+  PRIMARY KEY(ID)
+)

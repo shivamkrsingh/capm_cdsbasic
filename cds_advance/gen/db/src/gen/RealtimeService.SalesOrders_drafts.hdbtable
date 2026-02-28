@@ -1,0 +1,17 @@
+COLUMN TABLE RealtimeService_SalesOrders_drafts (
+  ID NVARCHAR(36) NOT NULL,
+  createdAt TIMESTAMP NULL,
+  createdBy NVARCHAR(255) NULL,
+  modifiedAt TIMESTAMP NULL,
+  modifiedBy NVARCHAR(255) NULL,
+  orderNo NVARCHAR(20) NULL,
+  status NVARCHAR(5000) NULL,
+  partner_ID NVARCHAR(36) NULL,
+  totalAmount DECIMAL(15, 2) NULL,
+  currency NVARCHAR(3) NULL,
+  IsActiveEntity BOOLEAN,
+  HasActiveEntity BOOLEAN,
+  HasDraftEntity BOOLEAN,
+  DraftAdministrativeData_DraftUUID NVARCHAR(36) NOT NULL,
+  PRIMARY KEY(ID)
+)

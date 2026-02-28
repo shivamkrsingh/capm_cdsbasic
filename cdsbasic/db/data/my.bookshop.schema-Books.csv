@@ -1,31 +1,31 @@
-ID;name;genre;country;authorId
-1;1984;Dystopian;India;1
-2;Kafka on the Shore;Magical Realism;Pakistan;2
-3;Half of a Yellow Sun;Historical Fiction;Germany;3
-4;One Hundred Years of Solitude;Magical Realism;Australia;3
-5;Brave New World;Dystopian;India;1
-6;Norwegian Wood;Romance;Japan;2
-7;The Trial;Absurdist;Germany;3
-8;Beloved;Historical Fiction;USA;4
-9;Things Fall Apart;Historical Fiction;Nigeria;5
-10;The Kite Runner;Drama;Afghanistan;6
-11;The Alchemist;Adventure;Brazil;7
-12;Life of Pi;Adventure;Canada;8
-13;The Wind-Up Bird Chronicle;Magical Realism;Japan;2
-14;The God of Small Things;Historical Fiction;India;1
-15;Crime and Punishment;Psychological;Russia;9
-16;The Brothers Karamazov;Philosophical;Russia;9
-17;Love in the Time of Cholera;Romance;Colombia;10
-18;One Day in the Life of Ivan Denisovich;Political;Russia;9
-19;The Shadow of the Wind;Mystery;Spain;11
-20;Memoirs of a Geisha;Historical Fiction;Japan;2
-21;Midnight’s Children;Magical Realism;India;1
-22;Blindness;Dystopian;Portugal;12
-23;Siddhartha;Philosophical;Germany;3
-24;The Book Thief;Historical Fiction;Germany;3
-25;Pachinko;Historical Fiction;South Korea;13
-26;A Tale of Two Cities;Historical Fiction;UK;14
-27;Don Quixote;Adventure;Spain;11
-28;The Little Prince;Fable;France;15
-29;Anna Karenina;Romance;Russia;9
-30;The Catcher in the Rye;Coming-of-Age;USA;4
+ID;name;genre;country;authorId;createdAt;createdBy;modifiedAt;modifiedBy
+1;1984;Dystopian;India;1;2026-03-01T12:00:00Z;admin;2026-03-01T12:00:00Z;admin
+2;Kafka on the Shore;Magical Realism;Pakistan;2;2026-03-01T12:00:00Z;admin;2026-03-01T12:00:00Z;admin
+3;Half of a Yellow Sun;Historical Fiction;Germany;3;2026-03-01T12:00:00Z;admin;2026-03-01T12:00:00Z;admin
+4;One Hundred Years of Solitude;Magical Realism;Australia;3;2026-03-01T12:00:00Z;admin;2026-03-01T12:00:00Z;admin
+5;Brave New World;Dystopian;India;1;2026-03-01T12:00:00Z;admin;2026-03-01T12:00:00Z;admin
+6;Norwegian Wood;Romance;Japan;2;2026-03-01T12:00:00Z;admin;2026-03-01T12:00:00Z;admin
+7;The Trial;Absurdist;Germany;3;2026-03-01T12:00:00Z;admin;2026-03-01T12:00:00Z;admin
+8;Beloved;Historical Fiction;USA;4;2026-03-01T12:00:00Z;admin;2026-03-01T12:00:00Z;admin
+9;Things Fall Apart;Historical Fiction;Nigeria;5;2026-03-01T12:00:00Z;admin;2026-03-01T12:00:00Z;admin
+10;The Kite Runner;Drama;Afghanistan;6;2026-03-01T12:00:00Z;admin;2026-03-01T12:00:00Z;admin
+11;The Alchemist;Adventure;Brazil;7;2026-03-01T12:00:00Z;admin;2026-03-01T12:00:00Z;admin
+12;Life of Pi;Adventure;Canada;8;2026-03-01T12:00:00Z;admin;2026-03-01T12:00:00Z;admin
+13;The Wind-Up Bird Chronicle;Magical Realism;Japan;2;2026-03-01T12:00:00Z;admin;2026-03-01T12:00:00Z;admin
+14;The God of Small Things;Historical Fiction;India;1;2026-03-01T12:00:00Z;admin;2026-03-01T12:00:00Z;admin
+15;Crime and Punishment;Psychological;Russia;9;2026-03-01T12:00:00Z;admin;2026-03-01T12:00:00Z;admin
+16;The Brothers Karamazov;Philosophical;Russia;9;2026-03-01T12:00:00Z;admin;2026-03-01T12:00:00Z;admin
+17;Love in the Time of Cholera;Romance;Colombia;10;2026-03-01T12:00:00Z;admin;2026-03-01T12:00:00Z;admin
+18;One Day in the Life of Ivan Denisovich;Political;Russia;9;2026-03-01T12:00:00Z;admin;2026-03-01T12:00:00Z;admin
+19;The Shadow of the Wind;Mystery;Spain;11;2026-03-01T12:00:00Z;admin;2026-03-01T12:00:00Z;admin
+20;Memoirs of a Geisha;Historical Fiction;Japan;2;2026-03-01T12:00:00Z;admin;2026-03-01T12:00:00Z;admin
+21;Midnight’s Children;Magical Realism;India;1;2026-03-01T12:00:00Z;admin;2026-03-01T12:00:00Z;admin
+22;Blindness;Dystopian;Portugal;12;2026-03-01T12:00:00Z;admin;2026-03-01T12:00:00Z;admin
+23;Siddhartha;Philosophical;Germany;3;2026-03-01T12:00:00Z;admin;2026-03-01T12:00:00Z;admin
+24;The Book Thief;Historical Fiction;Germany;3;2026-03-01T12:00:00Z;admin;2026-03-01T12:00:00Z;admin
+25;Pachinko;Historical Fiction;South Korea;13;2026-03-01T12:00:00Z;admin;2026-03-01T12:00:00Z;admin
+26;A Tale of Two Cities;Historical Fiction;UK;14;2026-03-01T12:00:00Z;admin;2026-03-01T12:00:00Z;admin
+27;Don Quixote;Adventure;Spain;11;2026-03-01T12:00:00Z;admin;2026-03-01T12:00:00Z;admin
+28;The Little Prince;Fable;France;15;2026-03-01T12:00:00Z;admin;2026-03-01T12:00:00Z;admin
+29;Anna Karenina;Romance;Russia;9;2026-03-01T12:00:00Z;admin;2026-03-01T12:00:00Z;admin
+30;The Catcher in the Rye;Coming-of-Age;USA;4;2026-03-01T12:00:00Z;admin;2026-03-01T12:00:00Z;admin

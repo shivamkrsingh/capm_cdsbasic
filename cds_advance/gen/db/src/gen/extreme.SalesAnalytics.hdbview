@@ -1,0 +1,6 @@
+VIEW extreme_SalesAnalytics AS SELECT
+  parent_1.orderNo AS OrderNo,
+  SalesOrderItem_0.currency,
+  sum(SalesOrderItem_0.price * SalesOrderItem_0.quantity) AS Revenue
+FROM (extreme_SalesOrderItem AS SalesOrderItem_0 LEFT JOIN extreme_SalesOrder AS parent_1 ON SalesOrderItem_0.parent_ID = parent_1.ID)
+GROUP BY parent_1.orderNo, SalesOrderItem_0.currency

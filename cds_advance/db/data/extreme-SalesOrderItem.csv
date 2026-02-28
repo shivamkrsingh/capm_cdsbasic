@@ -1,0 +1,4 @@
+ID,parent_ID,product_ID,quantity,price,currency,createdAt,createdBy,modifiedAt,modifiedBy
+abababab-abab-abab-abab-abababababab,12121212-1212-1212-1212-121212121212,aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa,2,1200,USD,2026-01-01T00:00:00Z,admin,2026-01-01T00:00:00Z,admin
+cdcdcdcd-cdcd-cdcd-cdcd-cdcdcdcdcdcd,12121212-1212-1212-1212-121212121212,bbbbbbbb-bbbb-bbbb-bbbb-bbbbbbbbbbbb,5,25,USD,2026-01-01T00:00:00Z,admin,2026-01-01T00:00:00Z,admin
+efefefef-efef-efef-efef-efefefefefef,34343434-3434-3434-3434-343434343434,cccccccc-cccc-cccc-cccc-cccccccccccc,3,80,EUR,2026-01-01T00:00:00Z,admin,2026-01-01T00:00:00Z,admin

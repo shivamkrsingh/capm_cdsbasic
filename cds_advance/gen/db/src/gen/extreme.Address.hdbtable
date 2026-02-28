@@ -1,0 +1,12 @@
+COLUMN TABLE extreme_Address (
+  ID NVARCHAR(36) NOT NULL,
+  createdAt TIMESTAMP,
+  createdBy NVARCHAR(255),
+  modifiedAt TIMESTAMP,
+  modifiedBy NVARCHAR(255),
+  street NVARCHAR(200),
+  city NVARCHAR(100),
+  country NVARCHAR(50),
+  partner_ID NVARCHAR(36),
+  PRIMARY KEY(ID)
+)

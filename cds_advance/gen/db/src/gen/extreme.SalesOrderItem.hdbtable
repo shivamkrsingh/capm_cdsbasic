@@ -1,0 +1,13 @@
+COLUMN TABLE extreme_SalesOrderItem (
+  ID NVARCHAR(36) NOT NULL,
+  createdAt TIMESTAMP,
+  createdBy NVARCHAR(255),
+  modifiedAt TIMESTAMP,
+  modifiedBy NVARCHAR(255),
+  parent_ID NVARCHAR(36),
+  product_ID NVARCHAR(36),
+  quantity INTEGER,
+  price DECIMAL(15, 2),
+  currency NVARCHAR(3),
+  PRIMARY KEY(ID)
+)

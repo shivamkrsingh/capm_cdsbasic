@@ -1,0 +1,13 @@
+COLUMN TABLE extreme_SalesOrder (
+  ID NVARCHAR(36) NOT NULL,
+  createdAt TIMESTAMP,
+  createdBy NVARCHAR(255),
+  modifiedAt TIMESTAMP,
+  modifiedBy NVARCHAR(255),
+  orderNo NVARCHAR(20),
+  status NVARCHAR(5000),
+  partner_ID NVARCHAR(36),
+  totalAmount DECIMAL(15, 2),
+  currency NVARCHAR(3),
+  PRIMARY KEY(ID)
+)

@@ -1,6 +1,8 @@
 namespace my.bookshop;
 
 using { my.reusefile as datatype } from './reduce';
+using { cuid , managed } from '@sap/cds/common';
+
 
 
 context schema {
@@ -10,9 +12,9 @@ context schema {
               on books.authorId = $self.ID;
 }
 
-entity Books : datatype.sharedDetails {
+entity Books : datatype.sharedDetails ,managed {
     key ID        : Integer;
-    genre         : String(50);
+    genre         : localized String(50);
     authorId      : Integer;
     nameofassociation     : Association to Authors 
                    on nameofassociation.ID = $self.authorId;

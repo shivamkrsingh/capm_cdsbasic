@@ -1,0 +1,7 @@
+COLUMN TABLE extreme_Product_texts (
+  locale NVARCHAR(14) NOT NULL,
+  ID NVARCHAR(36) NOT NULL,
+  name NVARCHAR(200),
+  description NVARCHAR(500),
+  PRIMARY KEY(locale, ID)
+)

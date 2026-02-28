@@ -1,0 +1,11 @@
+COLUMN TABLE extreme_BusinessPartner (
+  ID NVARCHAR(36) NOT NULL,
+  createdAt TIMESTAMP,
+  createdBy NVARCHAR(255),
+  modifiedAt TIMESTAMP,
+  modifiedBy NVARCHAR(255),
+  name NVARCHAR(150),
+  phone NVARCHAR(15),
+  mobile NVARCHAR(15),
+  PRIMARY KEY(ID)
+)

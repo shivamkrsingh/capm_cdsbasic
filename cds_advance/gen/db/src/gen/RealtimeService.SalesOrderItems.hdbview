@@ -1,0 +1,12 @@
+VIEW RealtimeService_SalesOrderItems AS SELECT
+  SalesOrderItem_0.ID,
+  SalesOrderItem_0.createdAt,
+  SalesOrderItem_0.createdBy,
+  SalesOrderItem_0.modifiedAt,
+  SalesOrderItem_0.modifiedBy,
+  SalesOrderItem_0.parent_ID,
+  SalesOrderItem_0.product_ID,
+  SalesOrderItem_0.quantity,
+  SalesOrderItem_0.price,
+  SalesOrderItem_0.currency
+FROM extreme_SalesOrderItem AS SalesOrderItem_0

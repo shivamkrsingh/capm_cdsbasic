@@ -1,0 +1,7 @@
+COLUMN TABLE extreme_CurrencyRate (
+  ID NVARCHAR(36) NOT NULL,
+  sourceCurrency NVARCHAR(3),
+  targetCurrency NVARCHAR(3),
+  rate DECIMAL(15, 6),
+  PRIMARY KEY(ID)
+)

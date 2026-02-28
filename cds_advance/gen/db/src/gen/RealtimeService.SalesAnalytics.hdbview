@@ -1,0 +1,5 @@
+VIEW RealtimeService_SalesAnalytics AS SELECT
+  SalesAnalytics_0.OrderNo,
+  SalesAnalytics_0.currency,
+  SalesAnalytics_0.Revenue
+FROM extreme_SalesAnalytics AS SalesAnalytics_0

@@ -1,0 +1,5 @@
+VIEW RealtimeService_Categories_texts AS SELECT
+  texts_0.locale,
+  texts_0.ID,
+  texts_0.name
+FROM extreme_Category_texts AS texts_0

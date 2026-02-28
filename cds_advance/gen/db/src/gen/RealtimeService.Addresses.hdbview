@@ -1,0 +1,11 @@
+VIEW RealtimeService_Addresses AS SELECT
+  Address_0.ID,
+  Address_0.createdAt,
+  Address_0.createdBy,
+  Address_0.modifiedAt,
+  Address_0.modifiedBy,
+  Address_0.street,
+  Address_0.city,
+  Address_0.country,
+  Address_0.partner_ID
+FROM extreme_Address AS Address_0

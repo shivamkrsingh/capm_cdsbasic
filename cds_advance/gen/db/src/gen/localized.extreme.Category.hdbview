@@ -1,0 +1,8 @@
+VIEW localized_extreme_Category AS SELECT
+  L_0.ID,
+  L_0.createdAt,
+  L_0.createdBy,
+  L_0.modifiedAt,
+  L_0.modifiedBy,
+  coalesce(localized_1.name, L_0.name) AS name
+FROM (extreme_Category AS L_0 LEFT JOIN extreme_Category_texts AS localized_1 ON localized_1.ID = L_0.ID AND localized_1.locale = SESSION_CONTEXT('LOCALE'))

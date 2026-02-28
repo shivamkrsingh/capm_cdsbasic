@@ -1,0 +1,6 @@
+COLUMN TABLE extreme_Category_texts (
+  locale NVARCHAR(14) NOT NULL,
+  ID NVARCHAR(36) NOT NULL,
+  name NVARCHAR(100),
+  PRIMARY KEY(locale, ID)
+)

@@ -1,0 +1,12 @@
+VIEW RealtimeService_SalesOrders AS SELECT
+  SalesOrder_0.ID,
+  SalesOrder_0.createdAt,
+  SalesOrder_0.createdBy,
+  SalesOrder_0.modifiedAt,
+  SalesOrder_0.modifiedBy,
+  SalesOrder_0.orderNo,
+  SalesOrder_0.status,
+  SalesOrder_0.partner_ID,
+  SalesOrder_0.totalAmount,
+  SalesOrder_0.currency
+FROM extreme_SalesOrder AS SalesOrder_0

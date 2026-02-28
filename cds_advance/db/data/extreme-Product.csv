@@ -1,0 +1,4 @@
+ID,name,description,price,currency,stock,category_ID,createdAt,createdBy,modifiedAt,modifiedBy
+aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa,Laptop,High performance laptop,1200,USD,50,11111111-1111-1111-1111-111111111111,2026-01-01T00:00:00Z,admin,2026-01-01T00:00:00Z,admin
+bbbbbbbb-bbbb-bbbb-bbbb-bbbbbbbbbbbb,Mouse,Wireless mouse,25,USD,200,22222222-2222-2222-2222-222222222222,2026-01-01T00:00:00Z,admin,2026-01-01T00:00:00Z,admin
+cccccccc-cccc-cccc-cccc-cccccccccccc,Keyboard,Mechanical keyboard,80,EUR,150,22222222-2222-2222-2222-222222222222,2026-01-01T00:00:00Z,admin,2026-01-01T00:00:00Z,admin
