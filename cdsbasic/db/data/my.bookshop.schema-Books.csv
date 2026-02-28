@@ -1,5 +1,5 @@
-ID,title,genre,author_ID
-101,1984,Dystopian,1
-102,Animal Farm,Dystopian,1
-103,Harry Potter and the Philosopher's Stone,Fantasy,2
-104,Kafka on the Shore,Fiction,3
+ID;title;genre;authorId
+3;1984;Dystopian;1
+5;Kafka on the Shore;Magical Realism;2
+6;Half of a Yellow Sun;Historical Fiction;3
+9;One Hundred Years of Solitude;Magical Realism;3
