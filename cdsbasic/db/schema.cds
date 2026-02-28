@@ -1,16 +1,17 @@
 namespace my.bookshop;
+
+using { my.reusefile as datatype } from './reduce';
+
+
 context schema {
-    entity Authors {
+    entity Authors : datatype.sharedDetails {
     key ID   : Integer;
-    name     : String(100);
-    country  : String(50);
     books    : Association to many Books
               on books.authorId = $self.ID;
 }
 
-entity Books {
+entity Books : datatype.sharedDetails {
     key ID        : Integer;
-    title         : String(100);
     genre         : String(50);
     authorId      : Integer;
     nameofassociation     : Association to Authors 
